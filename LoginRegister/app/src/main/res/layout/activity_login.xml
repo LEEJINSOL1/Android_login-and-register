@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="427dp"
+        android:layout_height="267dp"
+        app:srcCompat="@drawable/soccer_girl" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="English"
+        android:textStyle="bold"
+        android:textColor="#008FFC"
+        >
+    </TextView>
+
+    <EditText
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:id="@+id/idText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="이메일 주소"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/PasswordText"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="비밀번호"
+        android:textStyle="bold">
+    </EditText>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="로그인"
+        android:textStyle="bold">
+    </Button>
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="회원가입"
+        android:textStyle="bold">
+
+    </Button>
+    <TextView
+        android:id="@+id/what_ID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="비밀번호를\n잊으셨나요?"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#008FFC"
+        >
+
+    </TextView>
+
+
+</LinearLayout>

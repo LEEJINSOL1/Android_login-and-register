@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:text="로그인성공 페이지"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/user_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TextView>
+</LinearLayout>
